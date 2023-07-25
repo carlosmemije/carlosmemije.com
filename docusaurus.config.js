@@ -47,14 +47,10 @@ const config = {
       // Replace with your project's social card
       image: 'img/favicon.ico',
       navbar: {
-        title: 'Carlos Memije | CSE Student',
-        logo: {
-          alt: 'Carlos Memije Logo',
-          src: 'img/about.jpg',
-        },
+        title: 'Carlos Memije',
         items: [
           {
-            href: 'https://drive.google.com/file/d/1mh8QbNY_lv4yqQxPAtE-owpVi9Fj4u6d/view?usp=sharing',
+            href: 'https://docs.google.com/document/d/1qa5sSCLFI9rBf0U4WFXGrKYoDHtH4PgSjqYjBBLevKM/edit?usp=sharing',
             label: 'Resume',
             position: 'right',
           },
@@ -74,7 +70,7 @@ const config = {
         style: 'dark',
         links: [
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Carlos Memije`,
+        copyright: `© ${new Date().getFullYear()} Carlos Memije`,
         //Built using [HTML](https://html.com/) [CSS](https://getbootstrap.com/) [JavaScript](https://www.javascript.com/) [\*Source Code\*](https://github.com/carlosmemije/carlosmemije)
 
       },
