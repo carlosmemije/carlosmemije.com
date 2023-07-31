@@ -71,7 +71,6 @@ const config = {
         links: [
         ],
         copyright: `© ${new Date().getFullYear()} Carlos Memije`,
-        //Built using [HTML](https://html.com/) [CSS](https://getbootstrap.com/) [JavaScript](https://www.javascript.com/) [\*Source Code\*](https://github.com/carlosmemije/carlosmemije)
 
       },
       prism: {
