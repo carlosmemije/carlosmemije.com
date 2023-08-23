@@ -1,3 +1,12 @@
+import { useEffect } from 'react';
+import { Analytics } from '@vercel/analytics';
+
+const analytics = Analytics('carlosmemije-v2');
+
+useEffect(() => {
+analytics.trackPageview();
+}, []);
+
 # Carlos Memije
 
 ## About me
