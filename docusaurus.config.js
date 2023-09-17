@@ -1,6 +1,3 @@
-// @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
-
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
@@ -10,16 +7,12 @@ const config = {
   tagline: 'Coding is cool',
   favicon: 'img/favicon.ico',
 
-  // Set the production url of your site here
-  url: 'https://your-docusaurus-test-site.com',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
+  url: 'https://carlosmemije.com',
+
   baseUrl: '/',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'CarlosMemije', // Usually your GitHub org/user name.
-  projectName: 'CarlosMemije.com', // Usually your repo name.
+  organizationName: 'CarlosMemije', 
+  projectName: 'carlosmemije.com', 
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -44,10 +37,9 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
-      image: 'img/favicon.ico',
       navbar: {
-        title: 'Carlos Memije',
+        title: 'Carlitos  😺',
+        style: 'primary',
         items: [
           {
             href: 'https://docs.google.com/document/d/1qa5sSCLFI9rBf0U4WFXGrKYoDHtH4PgSjqYjBBLevKM/edit?usp=sharing',
@@ -67,10 +59,11 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
+ 
         ],
-        copyright: `© ${new Date().getFullYear()} Carlos Memije`,
+        copyright: `© ${new Date().getFullYear()} <a href="https://instagram.com/carlosmemije.py" target="_blank" rel="noopener noreferrer">Carlos Memije</a>`,
 
       },
       prism: {

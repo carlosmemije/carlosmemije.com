@@ -42,7 +42,7 @@ const Countdown = () => {
 
   return (
     <div>
-      <h1>SF90 & GT3</h1>
+      <h1>GTR & GT3</h1>
       <p>
         {timeLeft.days} days, {timeLeft.hours} hours, {timeLeft.minutes} minutes, {timeLeft.seconds} seconds
       </p>
